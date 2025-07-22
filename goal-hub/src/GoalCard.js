@@ -1,4 +1,3 @@
-// GoalCard.js
 import React from "react";
 
 function GoalCard({ goal, onUpdate, onDelete }) {

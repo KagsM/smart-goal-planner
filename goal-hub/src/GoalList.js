@@ -1,4 +1,3 @@
-// GoalList.js
 import React from "react";
 import GoalCard from "./GoalCard";
 
