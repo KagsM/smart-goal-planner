@@ -6,7 +6,7 @@ function DepositForm({ goals, onDeposit }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const goal = goals.find((g) => g.id === Number(goalId));
+    const goal = goals.find((g) => g.id.stringify() === Number(goalId).stringify());
     if (goal) {
       const updatedGoal = {
         ...goal,

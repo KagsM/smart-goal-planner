@@ -7,6 +7,7 @@ function GoalForm({ onAddGoal }) {
     targetAmount: "",
     deadline: "",
     savedAmount: 0,
+    createdAt: new Date().toISOString()
   });
 
   const handleChange = (e) => {
@@ -23,6 +24,7 @@ function GoalForm({ onAddGoal }) {
       targetAmount: "",
       deadline: "",
       savedAmount: 0,
+      createdAt: new Date().toISOString()
     });
   };
 
