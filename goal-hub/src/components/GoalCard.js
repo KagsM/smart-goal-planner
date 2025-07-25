@@ -17,6 +17,7 @@ function GoalCard({ goal, onUpdate, onDelete }) {
       <p>Saved: ${goal.savedAmount}</p>
       <p>Remaining: ${remaining}</p>
       <p>Deadline: {goal.deadline}</p>
+      <p>Created At: {goal.createdAt}</p>
       <div style={{ width: "100%", background: "#eee" }}>
         <div
           style={{
